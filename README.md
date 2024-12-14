@@ -42,8 +42,11 @@ However, solving this problem has important applications in:
    - Some artists have far more images than others, biasing predictions.
 3. **Computational Complexity**
    - Training on high-resolution images with deep models requires significant resources.
-4. **Low Validation Accuracy**
-   - Models currently achieve validation accuracy of ~10–11%, close to random guessing, indicating the complexity of the task.
+4. **Low Validation Accuracy With 49 Classes**
+   - Self-trained models predicting artists over 40 lables currently achieve validation accuracy of ~10–11%, close to random guessing, indicating the complexity of the task.
+
+5. **Higher Accuracy With 15 Classes*
+   - Pretrained models currently achieve validation accuracy of ~89%.
 
 ## Key Findings
 - **Style is easier to predict than artist.**
