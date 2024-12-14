@@ -59,7 +59,7 @@ However, solving this problem has important applications in:
 ## Results
 ### Current Performance
 - Training loss stabilizes with sufficient data augmentation.
-- Validation accuracy is ~10–11%, indicating the need for further refinement.
+- Validation accuracy is ~10–11% for self trained models, however, 89% for pretrained models e.g. ViT.
 
 ### Future Directions
 - Incorporate **style embeddings** as auxiliary inputs to improve artist classification.
