@@ -1,0 +1,8 @@
+model,target classification,pretrained weights,accuracy
+vgg19,artist,N,2%
+xception+densenet,artist,Y,12.50%
+xception+densenet (top 16 artists),artist,Y,32.35%
+inception,styles,N,1.50%
+inception (genre regrouping),styles,N,9.85%
+ViT,styles,Y,80.50%
+ViT (top 8 styles),styles,Y,81.50%
